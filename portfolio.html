@@ -14,13 +14,12 @@
 <body>
     <!-- ========================== HEADER ===============================================-->
     <header class="page-header">
-        <div class="header-container">
+        <div class="header-container container">
             <nav class="page-nav">
                 <a class="logo link" href="./index.html">Web<span class="logo-accent">Studio</span></a>
                 <ul class="menu-list list">
                     <li class="menu-item"><a class="menu-item-link text-font link" href="./index.html">Studio</a></li>
-                    <li class="menu-item"><a class="menu-item-link text-font link" href="./portfolio.html">Portfolio</a>
-                    </li>
+                    <li class="menu-item"><a class="menu-item-link text-font link" href="./portfolio.html">Portfolio</a></li>
                     <li class="menu-item"><a class="menu-item-link text-font link" href="">Contacts</a></li>
                 </ul>
             </nav>
@@ -28,8 +27,8 @@
                 <ul class="contacts list">
                     <li class="contacts-item"><a class="contact-link text-font link"
                             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="contacts-item"><a class="contact-link text-font link" href="tel:+110001111111">+11 (000)
-                            111-11-11</a></li>
+                    <li class="contacts-item"><a class="contact-link text-font link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
                 </ul>
             </address>
         </div>
@@ -38,99 +37,123 @@
     <main class="main-portfolio">
         <!-- ========================== NAVIGATION-BUTTON ===============================================-->
         <section class="portfolio-nav-buttons">
-            <h1 hidden>Portfolio</h1>
-            <ul class="portfolio-nav-list list">
-                <li class="portfolio-nav-list-item">
-                    <button class="portfolio-button" type="button">All</button>
-                </li>
-                <li class="portfolio-nav-list-item">
-                    <button class="portfolio-button" type="button">Web Site</button>
-                </li>
-                <li class="portfolio-nav-list-item">
-                    <button class="portfolio-button" type="button">App</button>
-                </li>
-                <li  class="portfolio-nav-list-item">
-                    <button class="portfolio-button" type="button">Design</button>
-                </li>
-                <li class="portfolio-nav-list-item">
-                    <button class="portfolio-button" type="button">Marketing</button>
-                </li>
-            </ul>
-            <!-- ========================== PORTFOLIO-IMG-LIST ===============================================-->
-            <ul class="portfolio-img list">
-                <!-- <h2 hidden>description</h2> -->
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/banking-concept.jpg" alt="Banking App Interface Concept" width="360" height="300">
-                        <!-- <h3>Banking App Interface Concept</h3> -->
-                        <h3 class="third-header text-font">Banking App Interface Concept</h3>
-                        <p class="feature-descriptions text-font">App</p>
-                    </a>
-                </li>
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
-                        <h3 class="third-header text-font">Cashless Payment</h3>
-                        <p class="feature-descriptions text-font">Marketing</p>
-                    </a>
-                </li>
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/meditation-app.jpg" alt="Meditation App" width="360" height="300">
-                        <h3 class="third-header text-font">Meditation App</h3>
-                        <p class="feature-descriptions text-font">App</p>
-                    </a>
-                </li>
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
-                        <h3 class="third-header text-font">Taxi Service</h3>
-                        <p class="feature-descriptions text-font">Marketing</p>
-                    </a>
-                </li>
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/screen-illustration.jpg" alt="Screen Illustrations" width="360" height="300">
-                        <h3 class="third-header text-font">Screen Illustrations</h3>
-                        <p class="feature-descriptions text-font">Design</p>
-                    </a>
-                </li>
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/oline-courses.jpg" alt="Online Courses" width="360" height="300">
-                        <h3 class="third-header text-font">Online Courses</h3>
-                        <p class="feature-descriptions text-font">Marketing</p>
-                    </a>
-                </li>
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/instagram-stories-concept.jpg" alt="Instagram Stories Concept" width="360" height="300">
-                        <h3 class="third-header text-font">Instagram Stories Concept</h3>
-                        <p class="feature-descriptions text-font">Design</p>
-                    </a>
-                </li>
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/organic-food.jpg" alt="Organic Food" width="360" height="300">
-                        <h3 class="third-header text-font">Organic Food</h3>
-                        <p class="feature-descriptions text-font">Web Site</p>
-                    </a>
-                </li>
-                <li class="portfolio-visual-item">
-                    <a class="card-img link" href="">
-                        <img src="./images/portfolio/fresh-food.jpg" alt="Fresh Coffee" width="360">
-                        <h3 class="third-header text-font">Fresh Coffee</h3>
-                        <p class="feature-descriptions text-font">Web Site</p>
-                    </a>
-                </li>
-            </ul>
+           <div class="style-portfolio container">     
+                <h1 class="visually-hidden">Portfolio</h1>
+                <ul class="portfolio-nav-list  extra-bottom-margin list">
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-button btn-slyle" type="button">All</button>
+                    </li>
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-button btn-slyle" type="button">Web Site</button>
+                    </li>
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-button btn-slyle" type="button">App</button>
+                    </li>
+                    <li  class="portfolio-nav-item">
+                        <button class="portfolio-button btn-slyle" type="button">Design</button>
+                    </li>
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-button btn-slyle" type="button">Marketing</button>
+                    </li>
+                </ul>
+                <!-- ========================== PORTFOLIO-IMG-LIST ===============================================-->
+                <ul class="portfolio-img list">
+                    <!-- <h2 hidden>description</h2> -->
+                    <li class="portfolio-img-item content">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/banking-concept.jpg" alt="Banking App Interface Concept" width="360" height="300">
+                            <!-- <h3>Banking App Interface Concept</h3> -->
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Banking App Interface Concept</h3>
+                                <p class="feature-descriptions text-font">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-img-item">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Cashless Payment</h3>
+                                <p class="feature-descriptions text-font">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-img-item">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/meditation-app.jpg" alt="Meditation App" width="360" height="300">
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Meditation App</h3>
+                                <p class="feature-descriptions text-font">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-img-item">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Taxi Service</h3>
+                                <p class="feature-descriptions text-font">Marketing</p>
+                            /div>
+                        </a>
+                    </li>
+                    <li class="portfolio-img-item">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/screen-illustration.jpg" alt="Screen Illustrations" width="360" height="300">
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Screen Illustrations</h3>
+                                <p class="feature-descriptions text-font">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-img-item">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/oline-courses.jpg" alt="Online Courses" width="360" height="300">
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Online Courses</h3>
+                                <p class="feature-descriptions text-font">Marketing</p>
+                            </div class="card-link-style">
+                        </a>
+                    </li>
+                    <li class="portfolio-img-item">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/instagram-stories-concept.jpg" alt="Instagram Stories Concept" width="360" height="300">
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Instagram Stories Concept</h3>
+                                <p class="feature-descriptions text-font">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-img-item">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/organic-food.jpg" alt="Organic Food" width="360" height="300">
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Organic Food</h3>
+                                <p class="feature-descriptions text-font">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-img-item">
+                        <a class="card-img link" href="">
+                            <img src="./images/portfolio/fresh-food.jpg" alt="Fresh Coffee" width="360">
+                            <div class="card-link-style">
+                                <h3 class="third-header extra-margin">Fresh Coffee</h3>
+                                <p class="feature-descriptions text-font">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!-- ========================== FOOTER ===============================================-->
-    <footer class="page-footer portfolio-footer-marg">
+    <footer class="page-footer">
+        <div class="style-footer container">
             <a class="logo-second link" href="./index.html">Web<span class="logo-second-accent">Studio</span></a>
-            <p class="text-footer text-font">Increase the flow of customers and sales for your business with digital marketing & growth
-            solutions.</p>
+            <p class="text-footer text-font">Increase the flow of customers and sales for your business with digital
+                marketing & growth
+                solutions.
+            </p>
+        </div>
     </footer>
 </body>
 </html>
