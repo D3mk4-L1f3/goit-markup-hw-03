@@ -49,7 +49,8 @@ border-bottom: 1px solid #e7e9fc;
 .header-container {
 display: flex;
 justify-content: space-between;
-
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .page-nav {
@@ -66,8 +67,7 @@ justify-content: space-between;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .logo-accent {
@@ -86,8 +86,7 @@ justify-content: space-between;
 
 .menu-item {
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .menu-item:nth-child(3)  {
@@ -118,8 +117,7 @@ justify-content: space-between;
 
 .contacts-item {
 margin-right: 40px;
-padding-top: 24px;
-padding-bottom: 24px;
+
 }
 
 .contacts-item:nth-child(2) {
