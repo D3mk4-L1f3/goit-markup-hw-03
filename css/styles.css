@@ -164,6 +164,10 @@ margin-right: 40px;
     margin-right: auto;
 }
 
+.hero-margin {
+margin-bottom: 48px;
+}
+
 .main-hero-button {
     display: block;
 
@@ -184,8 +188,9 @@ margin-right: 40px;
     margin-left: auto;
     margin-right: auto;
 }
-    .main-hero-button:hover,
-    .main-hero-button:focus{
+
+.main-hero-button:hover,
+.main-hero-button:focus{
     background-color: var(--hover-and-focus-color);
 }
 
