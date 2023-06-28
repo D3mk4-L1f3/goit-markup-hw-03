@@ -79,15 +79,13 @@ justify-content: space-between;
 
 .menu-list {
     display: flex;
-    padding-left: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin: 0;
 }
 
 .menu-item {
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
 }
 
 .menu-item:nth-child(3)  {
@@ -458,6 +456,6 @@ margin-right: 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    margin-bottom: 8px;
 }
-
 
