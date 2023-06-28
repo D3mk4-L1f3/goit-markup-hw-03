@@ -49,6 +49,8 @@ img {
 .page-header {
   width: 1440px;
   border-bottom: 1px solid #e7e9fc;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-container {
