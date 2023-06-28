@@ -45,7 +45,7 @@ img {
 .link {
   text-decoration: none;
 }
-
+/* ===================================== Header ========================================== */
 .page-header {
   width: 1440px;
   border-bottom: 1px solid #e7e9fc;
@@ -143,11 +143,15 @@ img {
   color: var(--hover-and-focus-color);
 }
 
+/* ===================================== MAIN ========================================== */
+
 .main-content {
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ===================================== HERO ========================================== */
 
 .hero {
   background-color: #2e2f42;
@@ -196,6 +200,8 @@ img {
 .main-hero-button:focus {
   background-color: var(--hover-and-focus-color);
 }
+
+/* ===================================== TECHNOLOGY ========================================== */
 
 .techonoly-hidden {
   padding-top: 120px;
@@ -255,6 +261,8 @@ img {
   color: var(--text-color);
 }
 
+/* ===================================== WHAT-ARE-WE-DOING-SECTION ========================================== */
+
 .work-description {
   text-align: center;
   padding-bottom: 120px;
@@ -280,6 +288,8 @@ img {
 .example-item:nth-child(3) {
   margin-right: 0;
 }
+
+/* ===================================== TEAM ========================================== */
 
 .team {
   background-color: var(--footer-text-color);
@@ -316,6 +326,8 @@ img {
   padding-left: 16px;
   padding-right: 16px;
 }
+
+/* ===================================== FOOTER ========================================== */
 
 .page-footer {
   width: 1440px;
@@ -410,6 +422,8 @@ img {
   background-color: var(--hover-and-focus-color);
   border: 1px solid transparent;
 }
+
+/* ===================================== PORTFOLIO-IMG-CARDS ========================================== */
 
 .portfolio-img {
   display: flex;
