@@ -156,10 +156,6 @@ img {
   padding-bottom: 188px;
 }
 
-/* .hero-box{
-
-} */
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -206,10 +202,6 @@ img {
   padding-bottom: 120px;
 }
 
-/* .tech-content {
-   
-} */
-
 .second-header {
   font-weight: 700;
   font-size: 36px;
@@ -245,10 +237,6 @@ img {
 .feature-item:nth-child(4) {
   margin-right: 0;
 }
-
-/* .content{
-
-} */
 
 .third-header {
   font-weight: 500;
@@ -443,14 +431,6 @@ img {
   margin-bottom: 0;
 }
 
-/* .card-img{
-
-} */
-
-/* .img-style{
-
-} */
-
 .card-link-style {
   padding: 32px;
   padding-bottom: 32px;
@@ -458,14 +438,4 @@ img {
   padding-left: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-
-.img-card-header {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
-  margin-bottom: 8px;
 }
